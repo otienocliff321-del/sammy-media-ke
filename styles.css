@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="SAMMY MEDIA KE creates cinematic video, photography, branding, and digital storytelling for businesses, creators, and events."
+    />
+    <title>SAMMY MEDIA KE | Media, Stories & Brand Growth</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand" aria-label="SAMMY MEDIA KE home">
+          <img src="assets/logo.svg" alt="SAMMY MEDIA KE logo" />
+          <span>SAMMY MEDIA KE</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#work">Work</a>
+          <a href="#process">Process</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="btn btn-primary nav-cta" href="#contact">Book a shoot</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Stories that connect. Media that moves.</p>
+            <h1>Turning ideas into unforgettable visual stories.</h1>
+            <p class="lead">
+              We help brands, events, and creators stand out through cinematic video,
+              striking photography, strategic storytelling, and digital content that sparks
+              emotion and action.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#contact">Start your project</a>
+              <a class="btn btn-secondary" href="#work">View our work</a>
+            </div>
+.
+            <ul class="hero-metrics" aria-label="Key company statistics">
+              <li><strong>120+</strong><span>Projects delivered</span></li>
+              <li><strong>50+</strong><span>Brands and creators</span></li>
+              <li><strong>4.9/5</strong><span>Client satisfaction</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Creative media showcase">
+            <div class="showcase-card card-large">
+              <div class="card-badge">Featured campaign</div>
+              <h3>Brand Launch Film</h3>
+              <p>Powerful storytelling for next-generation businesses and experiences.</p>
+            </div>
+            <div class="showcase-card card-small top">
+              <span>Video Production</span>
+            </div>
+            <div class="showcase-card card-small bottom">
+              <span>Event Coverage</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="brands-strip" aria-label="Trusted by brands and creators">
+        <div class="container brands-row">
+          <span>Brand Storytelling</span>
+          <span>Corporate Media</span>
+          <span>Event Coverage</span>
+          <span>Social Content</span>
+          <span>Digital Campaigns</span>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container split-grid">
+          <div>
+            <p class="section-label">About us</p>
+            <h2>We craft media that makes people stop, feel, and remember.</h2>
+          </div>
+          <div>
+            <p>
+              SAMMY MEDIA KE is a creative media company built to help businesses, events,
+              and visionaries share their story with impact. From high-end video production
+              to digital storytelling and content strategy, we blend creativity, technical
+              precision, and audience insight to create experiences that stand out.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section alt-bg">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-label">What we do</p>
+            <h2>Creative services for modern brands and moments.</h2>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card">
+              <div class="icon">01</div>
+              <h3>Video Production</h3>
+              <p>Commercials, promos, documents, short-form videos, and campaign films that keep your audience engaged.</p>
+            </article>
+
+            <article class="service-card">
+              <div class="icon">02</div>
+              <h3>Photography</h3>
+              <p>Editorial, lifestyle, event, product, and portrait photography designed to elevate your visual identity.</p>
+            </article>
+
+            <article class="service-card">
+              <div class="icon">03</div>
+              <h3>Branding</h3>
+              <p>Message development, creative direction, and media assets tailored to tell your story with clarity and confidence.</p>
+            </article>
+
+            <article class="service-card">
+              <div class="icon">04</div>
+              <h3>Content Strategy</h3>
+              <p>Social-first content planning, production and optimization to grow engagement across digital channels.</p>
+            </article>
+
+            <article class="service-card">
+              <div class="icon">05</div>
+              <h3>Event Coverage</h3>
+              <p>Live event filming, highlights, interviews, and recap content for conferences, launches, and activations.</p>
+            </article>
+
+            <article class="service-card">
+              <div class="icon">06</div>
+              <h3>Creative Consulting</h3>
+              <p>Creative planning, brand positioning, and storytelling support to help your communication resonate.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-label">Featured work</p>
+            <h2>Media built to create impact and attention.</h2>
+          </div>
+
+          <div class="work-grid">
+            <article class="work-card work-one">
+              <div class="overlay">
+                <span>Brand Launch</span>
+                <h3>New Market Rollout</h3>
+              </div>
+            </article>
+
+            <article class="work-card work-two">
+              <div class="overlay">
+                <span>Event Highlight</span>
+                <h3>Conference Coverage</h3>
+              </div>
+            </article>
+
+            <article class="work-card work-three">
+              <div class="overlay">
+                <span>Campaign Story</span>
+                <h3>Social Growth Concept</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="process" class="section alt-bg">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-label">Our approach</p>
+            <h2>A simple process that delivers powerful results.</h2>
+          </div>
+
+          <div class="process-grid">
+            <div class="process-step">
+              <span>01</span>
+              <h3>Discover</h3>
+              <p>We learn your goals, audience, and the story you want people to remember.</p>
+            </div>
+            <div class="process-step">
+              <span>02</span>
+              <h3>Design</h3>
+              <p>We shape the concept, visual direction, and strategy for a compelling production.</p>
+            </div>
+            <div class="process-step">
+              <span>03</span>
+              <h3>Deliver</h3>
+              <p>We produce and polish the final media for launch, promotion, and digital impact.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section cta-section">
+        <div class="container cta-box">
+          <div>
+            <p class="section-label">Let’s create something memorable</p>
+            <h2>Ready to tell your story with impact?</h2>
+          </div>
+          <div class="cta-actions">
+            <a class="btn btn-primary" href="mailto:hello@sammymedia.ke">hello@sammymedia.ke</a>
+            <a class="btn btn-secondary" href="tel:+254700000000">+254 700 000 000</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> SAMMY MEDIA KE. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
